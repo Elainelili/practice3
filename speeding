@@ -26,7 +26,7 @@ Example Test Cases:
 def speeding_ticket(speed, is_birthday):
     def speeding_ticket(speed, is_birthday):
     if is_birthday:
-        speed -= 5  # 如果是生日，减去 5 mph 以提高速度限制
+        speed -= 5  
 
     if speed <= 60:
         return "No Ticket"
